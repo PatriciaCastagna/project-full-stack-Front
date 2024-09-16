@@ -1,0 +1,94 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input de título e descrição */
+.inpuTarefas input,
+form div input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo do botão de adicionar/atualizar */
+.buttonAdd {
+    width: auto; /* Evitar que o botão ocupe a largura inteira */
+    padding: 8px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonAdd:hover {
+    background-color: #218838;
+}
+
+/* Estilos para a lista de tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid green; 
+    border-radius: 4px;
+}
+
+/* Estilo dos títulos e descrições */
+li h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+li p {
+    margin: 5px 0 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilos para o container de botões */
+li div {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilos dos botões de editar e excluir */
+.boteditar,
+.botdeletar {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.boteditar {
+    background-color: #007bff;
+    color: white;
+}
+
+.boteditar:hover {
+    background-color: #0056b3;
+}
+
+.botdeletar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.botdeletar:hover {
+    background-color: #c82333;
+}
